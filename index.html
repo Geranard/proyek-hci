@@ -5,25 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Golden Circle</title>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/5f0f0f2d20.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="page-container">
         <div class="header-container">
-            <div class="logo-container">
-                <img src="./assets/GC_Logo.png" alt="">
-            </div>
-            <div class="navbar-container">
-                <p>Jewelry</p>
-                <p>White Gold</p>
-                <p>Promotions</p>
-                <p>About Us</p>
-                <p>Membership</p>
+            <div class="header-content">
+                <img class="logo-img" src="./assets/GC_Logo.png" alt="">
+                <a href="">Jewelry</a>
+                <a href="">Promotions</a>
+                <a href="">Membership</a>
+                <a href="">About Us</a>
             </div>
         </div>
         <div class="body-container">
-            <div class="image-slider">
-
+            <div id="image-slider">
+                <i class="fas fa-angle-double-left" id="slide-left"></i>
+                <img class="slide" src="./assets/slider-1.webp" alt="" />
+                <img class="slide" src="./assets/slider-2.png" alt="" />
+                <img class="slide" src="./assets/slider-3.png" alt="" />
+                <img class="slide" src="./assets/slider-4.png" alt="" />
+                <i class="fas fa-angle-double-right" id="slide-right"></i>
             </div>
             <div class="product-show1">
 

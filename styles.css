@@ -1,3 +1,58 @@
-.logo-container img {
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F1ACA2;
+    font-family: 'Ubuntu';
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+i {
+    margin: 0, 20px;
+}
+
+.logo-img {
+    height: 8vh;
+}
+
+.header-container {
+    background-color: white;
+    width: 100vw;
     height: 10vh;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vh 10vw 1vh 5vw;
+}
+
+.body-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#image-slider {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70vw;
+}
+
+.slide {
+    width: 60vw;
+    height: 75vh;
 }
