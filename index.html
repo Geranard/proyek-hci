@@ -9,7 +9,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Golden Circle</title>
+    <title>Home</title>
     <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     <script src="./script.js"></script>
     <script src="https://kit.fontawesome.com/5f0f0f2d20.js" crossorigin="anonymous"></script>
@@ -18,22 +18,30 @@
 </head>
 <body>
     <header>
-        <div class="navbar">
-            <button class="dropdown-btn">
-                <i class="fa fa-caret-down"></i>Menu
-            </button>
-            <div class="dropdown-content">
-                <li><a href="">Jewelry</a></li>
-                <li><a href="">Promotions</a></li>
-                <li><a href="">Membership</a></li>
-            </div>
-        </div>
+        <ul>
+            <li>
+                <a href="">Menu</a>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./jewelry.html">Jewelry</a></li>
+                    <li><a href="">Promotions</a></li>
+                    <li><a href="">Membership</a></li>
+                    <li><a href="">About Us</a></li>
+                </ul>
+            </li>
+        </ul>
         <a href="./index.html"><img class="logo-img" src="./assets/Golden_Circle-no-bg.png" alt=""></a>
     </header>
 
+    <div class="banner">
+        <h1>Show Your Inner Gold</h1>
+    </div>
+
     <div class="content-1">
         <div class="image-slider">
-            <h1>Show Your Inner Gold</h1>
+            <img src="./assets/slider/event-slider-1.png" alt="">
+            <img src="./assets/slider/promotion-slider-1.png" alt="">
+            <img src="./assets/slider/recommendation-slider-1.png" alt="">
         </div>
     </div>
     
@@ -42,15 +50,17 @@
             <h1>
                 Golden Circle provides one of the finest gold in the town and have wide range of selection with free shipping worldwide.
             </h1>
-            <button class="jewelry-btn-content-2">Shop Jewelry Now!</button>
+            <a href="./jewelry.html">
+                <button class="jewelry-btn-content-2">
+                    Shop Jewelry Now!
+                </button>
+            </a>
         </div>
         <img src="./assets/product/product-1.jpg" alt="">
     </div>
    
     <footer>
         Copyright © 2022 Book Store
-        <a href="">Customer Service</a>
-        <a href="">About Us</a>
         <a href="https://www.facebook.com/"><img src="./assets/social-media/facebook.svg" alt=""></a>
         <a href="https://www.instagram.com/"><img src="./assets/social-media/instagram.svg" alt=""></a>
     </footer>

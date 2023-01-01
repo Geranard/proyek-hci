@@ -27,12 +27,53 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 0vw; */
     padding-top: 2vh;
     padding-bottom: 2vh;
-    background-color: white;
+    background-color: #F1ACA2;
     width: 100%;
     height: 10vh;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header ul li {
+    display: block;
+    position: relative;
+    list-style: none;
+}
+
+header ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+header ul li a:hover{
+    background-color: #F1ACA2;
+    border-radius: 5px;
+}
+
+header ul li ul {
+    display: none;
+}
+
+header ul li:hover ul {
+    display: block;
+    position: absolute;
+    margin-top: 5px;
+    background-color: #F1ACA2;
+    border-radius: 5px;
+    width: 15vw;
+    padding: 1vw 1vh;
+    box-shadow: 0px 20px 100px 0px rgba(0, 0, 0, 0.5);
+}
+
+header ul li ul li {
+    padding-top: 1vh;
 }
 
 .logo-img {
@@ -40,26 +81,20 @@ header {
     padding-right: 5vw;
 }
 
-.navbar {
-    position: relative;
-    display: inline-block;
-    padding-left: 5vw;
-}
-
-.dropdown-btn {
-    position: absolute;
-    border: none;
-    color: black;
-    cursor: pointer;
-    background-color: white;
-}
-
-.dropdown-menu-content {
-    display: none;
-    background-color: #f9f9f9;
-    position: relative;
-    list-style: none;
+/* banner */
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lato";
+    font-size: 5vh;
+    color: white;
     text-align: center;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/slider/banner-menu.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 /* content-1 */
@@ -68,59 +103,20 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-family: "Lato";
 }
 
 .image-slider {
-    display:flex;
-    align-items: center;
-    justify-content: center;
+    position: relative;
+    overflow: hidden;
     width: 100%;
     height: 90vh;
-    font-family: "Lato";
-    color: white;
-    font-size: 10vh;
-    text-align: center;
-    animation: slider 10s forwards infinite;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    cursor: pointer;
 }
 
-@keyframes slider {
-    0% {
-        background-image: linear-gradient(
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)
-          ), url("./assets/slider/slider-5.png");
-    }
-
-    25% {
-        background-image: linear-gradient(
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)
-          ), url("./assets/slider/slider-6.jpg");
-    }
-
-    50% {
-        background-image: linear-gradient(
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)
-          ), url("./assets/slider/slider-3.png");
-    }
-
-    75% {
-        background-image: linear-gradient(
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)
-          ), url("./assets/slider/slider-4.png");
-    }
-
-    100% {
-        background-image: linear-gradient(
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)
-          ), url("./assets/slider/slider-5.png");
-    }
+.image-slider img {
+    width: 100%;
+    height: 90vh;
 }
 
 /* content-2 */
