@@ -22,29 +22,48 @@ i {
     margin: 0, 20px;
 }
 
-.logo-img {
-    height: 8vh;
-}
-
-.header-container {
+/* header */
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1vh 10vw 1vh 5vw;
+    /* padding: 0vw; */
+    padding-top: 2vh;
+    padding-bottom: 2vh;
     background-color: white;
     width: 100%;
     height: 10vh;
 }
 
-/* .header-content {
-    
+.logo-img {
+    height: 8vh;
+    padding-right: 5vw;
 }
 
-.dropdown-menu {
+.navbar {
+    position: relative;
+    display: inline-block;
+    padding-left: 5vw;
+}
 
-} */
+.dropdown-btn {
+    position: absolute;
+    border: none;
+    color: black;
+    cursor: pointer;
+    background-color: white;
+}
 
-.body-container {
+.dropdown-menu-content {
+    display: none;
+    background-color: #f9f9f9;
+    position: relative;
+    list-style: none;
+    text-align: center;
+}
+
+/* content-1 */
+.content-1 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -54,24 +73,20 @@ i {
 .image-slider {
     display:flex;
     align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    font-family: "Lato";
-}
-
-.slide {
-    display: flex;
-    align-items: center;
     justify-content: center;
     width: 100%;
     height: 90vh;
-    animation: slide 10s forwards infinite;
+    font-family: "Lato";
+    color: white;
+    font-size: 10vh;
+    text-align: center;
+    animation: slider 10s forwards infinite;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-@keyframes slide {
+@keyframes slider {
     0% {
         background-image: linear-gradient(
             rgba(0, 0, 0, 0.5),
@@ -108,27 +123,24 @@ i {
     }
 }
 
-.slide h1 {
-    font-size: 10vh;
-    color: white;
-    border-radius: 20px;
-    padding: 1vw;
-}
-
-.product-container1 {
+/* content-2 */
+.content-2 {
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     width: 100%;
     height: 100vh;
 }
 
-.product-show1 {
+.title-content-2 {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: center;
-    padding: 10vh 5vw 10vh 5vw;
+    padding-left: 5vw;
 }
 
-.jewelry-button-product-show1 {
+.jewelry-btn-content-2 {
     border-radius: 10px;
     border: none;
     height: 8vh;
@@ -138,7 +150,15 @@ i {
     font-size: 2vh;
 }
 
-.footer-container {
+.content-2 img {
+    border-radius: 10px;
+    border: none;
+    height: 50vh;
+    padding-right: 5vw;
+}
+
+/* footer */
+footer {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -146,6 +166,6 @@ i {
     height: 15vh;
 }
 
-.footer-container img {
+footer img {
     height: 3vh;
 }
