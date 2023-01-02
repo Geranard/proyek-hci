@@ -240,3 +240,51 @@ footer img {
 .jewelry-white-product, .jewelry-yellow-product {
     display: none;
 }
+
+/* about-us */
+.about-us-content-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0vh 5vw 0vh 5vw;
+    text-align: center;
+    height: 100vh;
+}
+
+.about-us-content-1 img {
+    height: 20vh;
+}
+
+/* promotions */
+.promotions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+/* form */
+.membership-form, .membership-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#username, #email, #password, #confirm-password, #city, #address {
+    border-radius: 10px;
+    border-color: #FF884B;
+    width: 50vw;
+    height: 4vh;
+}
+
+#submit {
+    border-radius: 10px;
+    border-color: #FF884B;
+    height: 4vh;
+    width: 20vw;
+    background-color: #FFF9B0;
+    color: black;
+    font-size: 2vh;
+}
