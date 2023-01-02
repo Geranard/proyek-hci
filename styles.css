@@ -29,7 +29,7 @@ header {
     align-items: center;
     padding-top: 2vh;
     padding-bottom: 2vh;
-    background-color: #F1ACA2;
+    background-color: #FFF9B0;
     width: 100%;
     height: 10vh;
 }
@@ -53,7 +53,7 @@ header ul li a {
 }
 
 header ul li a:hover{
-    background-color: #F1ACA2;
+    background-color: #FF577F;
     border-radius: 5px;
 }
 
@@ -116,7 +116,7 @@ header ul li ul li {
 
 .image-slider img {
     width: 100%;
-    height: 90vh;
+    height: 100%;
 }
 
 /* content-2 */
@@ -136,12 +136,12 @@ header ul li ul li {
     padding-left: 5vw;
 }
 
-.jewelry-btn-content-2 {
+.title-content-2 button, .white-gold-btn, .yellow-gold-btn, .category-white-opt input, .category-yellow-opt input {
     border-radius: 10px;
-    border: none;
+    border-color: #FF884B;
     height: 8vh;
     width: 20vw;
-    background-color: #F1ACA2;
+    background-color: #FFF9B0;
     color: black;
     font-size: 2vh;
 }
@@ -158,10 +158,85 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: #F1ACA2;
+    background-color: #FFF9B0;
     height: 15vh;
 }
 
 footer img {
     height: 3vh;
+}
+
+/* jewelry page */
+/* choose-gold */
+
+.choose-gold, .jewelry-product, .white-gold-opt, .yellow-gold-opt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choose-gold {
+    height: 100vh;
+}
+
+.choose-gold, .white-gold-opt, .yellow-gold-opt {
+    flex-direction: column;
+}
+
+.white-gold-opt, .yellow-gold-opt {
+    padding: 0vh 10vw 10vh 10vw;
+}
+
+.white-gold-opt img, .yellow-gold-opt img {
+    height: 25vh;
+}
+
+.white-gold-btn, .category-white-opt input {
+    background-color: white;
+}
+
+.yellow-gold-btn, .category-yellow-opt input {
+    background-color: yellow;
+}
+
+/* items */
+/* .white-gold-items, .yellow-gold-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.white-gold-items .row-1, .white-gold-items .row-2, .yellow-gold-items .row-1, .yellow-gold-items .row-2 {
+    display: none;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.white-gold-items img, .yellow-gold-items img {
+    width: 15vw;
+} */
+
+/* category */
+.category-white, .category-yellow {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.category-white a, .category-yellow a {
+    padding: 0vh 1vw;
+}
+
+.category-white-row, .category-yellow-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jewelry-white-product, .jewelry-yellow-product {
+    display: none;
 }
