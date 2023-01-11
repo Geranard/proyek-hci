@@ -1,0 +1,109 @@
+{
+    "white":
+    {
+        "ring":
+        {
+            "product_1":
+            {
+                "title": "product 1 ring white gold",
+                "description": "yes",
+                "pict": "./assets/product/product-4.png"
+            },
+            "product_2":
+            {
+                "title": "product 1 ring white gold",
+                "description": "yes",
+                "pict": "./assets/product/product-4.png"
+            },
+            "product_3":
+            {
+                "title": "product 1 ring white gold",
+                "description": "yes",
+                "pict": "./assets/product/product-4.png"
+            },
+            "product_4":
+            {
+                "title": "product 1 ring white gold",
+                "description": "yes",
+                "pict": "./assets/product/product-4.png"
+            },
+            "product_5":
+            {
+                "title": "product 1 ring white gold",
+                "description": "yes",
+                "pict": "./assets/product/product-4.png"
+            },
+            "product_6":
+            {
+                "title": "product 1 ring white gold",
+                "description": "yes",
+                "pict": "./assets/product/product-4.png"
+            },
+            "product_7":
+            {
+                "title": "product 1 ring white gold",
+                "description": "yes",
+                "pict": "./assets/product/product-4.png"
+            }
+        },
+        "bracelet":
+        {
+            "product_1":
+            {
+                "title": "product 1 bracelet white gold",
+                "description": "yes",
+                "pict": "./assets/product/product-4.png"
+            }
+        },
+        "necklace":
+        {
+            "product_1":
+            {
+                "title": "necklace 1 ring white gold",
+                "description": "yes",
+                "pict": "./assets/product/product-4.png"
+            }
+        },
+        "earrings":
+        {
+            "product_1":
+            {
+                "title": "earrings 1 ring white gold",
+                "description": "yes",
+                "pict": "./assets/product/product-4.png"
+            }
+        }
+    },
+
+    "yellow":
+    {
+        "ring":
+        {
+            "product_1":
+            {
+                "pict": "./assets/product/product-5.jpg"
+            }
+        },
+        "bracelet":
+        {
+            "product_1":
+            {
+                "pict": "./assets/product/product-5.jpg"
+            }
+        },
+        "necklace":
+        {
+            "product_1":
+            {
+                "pict": "./assets/product/product-5.jpg"
+            }
+        },
+        "earrings":
+        {
+            "product_1":
+            {
+                "pict": "./assets/product/product-5.jpg"
+            }
+        }
+    }
+}

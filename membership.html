@@ -15,7 +15,7 @@
     <header>
         <ul>
             <li>
-                <a href="">Menu</a>
+                <a href="#">Menu</a>
                 <ul>
                     <li><a href="./index.html">Home</a></li>
                     <li><a href="./jewelry.html">Jewelry</a></li>
@@ -30,7 +30,7 @@
 
     <div class="membership-form">
         <h1>Become a Member</h1>
-        <form method="">
+        <form name="member-form" id="member-form" method="" onsubmit="return formValidation()">
             <input type="text" name="username" id="username" placeholder="Name" required autofocus>
             <br> <br>
             <input type="email" name="email" id="email" placeholder="E-mail" required>
@@ -43,9 +43,18 @@
             <br> <br>
             <input type="text" name="address" id="address" placeholder="Address" required autofocus>
             <br> <br>
+            <div class="terms-and-condition">
+                <input id="terms" type="checkbox">
+                <label for="terms"> I agree to <a href="#">Terms & Conditions</a>.</label>
+            </div>
+            <br> <br>
             <input type="submit" name="submit" id="submit" value="Register">
             <br> <br>
         </form>
+    </div>
+
+    <div class="free-delivery">
+        <i>*Free delivery shipping fee (T&C applied)</i>
     </div>
 
     <footer>
