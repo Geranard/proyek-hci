@@ -5,72 +5,93 @@
         {
             "product_1":
             {
-                "title": "product 1 ring white gold",
-                "description": "yes",
-                "pict": "./assets/product/product-4.png"
+                "title": "24K Diamond White Gold Ring",
+                "pict": "./assets/product/white/ring/product-1.jpeg"
             },
             "product_2":
             {
-                "title": "product 1 ring white gold",
-                "description": "yes",
-                "pict": "./assets/product/product-4.png"
+                "title": "12K Diamond White Gold Ring",
+                "pict": "./assets/product/white/ring/product-2.png"
             },
             "product_3":
             {
-                "title": "product 1 ring white gold",
-                "description": "yes",
-                "pict": "./assets/product/product-4.png"
+                "title": "Titanium White Gold Ring",
+                "pict": "./assets/product/white/ring/product-3.jpg"
             },
             "product_4":
             {
-                "title": "product 1 ring white gold",
-                "description": "yes",
-                "pict": "./assets/product/product-4.png"
-            },
-            "product_5":
-            {
-                "title": "product 1 ring white gold",
-                "description": "yes",
-                "pict": "./assets/product/product-4.png"
-            },
-            "product_6":
-            {
-                "title": "product 1 ring white gold",
-                "description": "yes",
-                "pict": "./assets/product/product-4.png"
-            },
-            "product_7":
-            {
-                "title": "product 1 ring white gold",
-                "description": "yes",
-                "pict": "./assets/product/product-4.png"
+                "title": "18K White Gold Ring",
+                "pict": "./assets/product/white/ring/product-4.jpg"
             }
+           
         },
         "bracelet":
         {
             "product_1":
             {
-                "title": "product 1 bracelet white gold",
-                "description": "yes",
-                "pict": "./assets/product/product-4.png"
+                "title": "24K White Gold Bracelet",
+                "pict": "./assets/product/white/bracelet/product-1.jpg"
+            },
+            "product_2":
+            {
+                "title": "White Gold with Diamonds Bracelet",
+                "pict": "./assets/product/white/bracelet/product-2.jpg"
+            },
+            "product_3":
+            {
+                "title": "Solid 10K White Gold Bracelet",
+                "pict": "./assets/product/white/bracelet/product-3.jpg"
+            },
+            "product_4":
+            {
+                "title": "Bracelet White Gold SG Pentacles",
+                "pict": "./assets/product/white/bracelet/product-4.webp"
             }
         },
         "necklace":
         {
             "product_1":
             {
-                "title": "necklace 1 ring white gold",
-                "description": "yes",
-                "pict": "./assets/product/product-4.png"
+                "title": "Necklace Chain 18K White Gold",
+                "pict": "./assets/product/white/necklace/product-1.jpg"
+            },
+            "product_2":
+            {
+                "title": "Necklace White Gold with Diamonds",
+                "pict": "./assets/product/white/necklace/product-2.jpg"
+            },
+            "product_3":
+            {
+                "title": "Mint & Soda White Gold Necklace",
+                "pict": "./assets/product/white/necklace/product-3.webp"
+            },
+            "product_4":
+            {
+                "title": "White Gold with Pearl and Diamond Necklace",
+                "pict": "./assets/product/white/necklace/product-4.jpg"
             }
         },
         "earrings":
         {
             "product_1":
             {
-                "title": "earrings 1 ring white gold",
-                "description": "yes",
-                "pict": "./assets/product/product-4.png"
+                "title": "Heart Shaped White Gold Earrings",
+                "pict": "./assets/product/white/earrings/product-1.webp"
+            },
+            "product_2":
+            {
+                "title": "White Gold with Diamond Earrings",
+                "pict": "./assets/product/white/earrings/product-2.jpg"
+            },
+            "product_3":
+            {
+                "title": "Diamond 18K White Gold Earrings",
+                "pict": "./assets/product/white/earrings/product-3.jpg"
+            },
+            "product_4":
+            {
+                "title": "18K White Gold Earrings",
+                "pict": "./assets/product/white/earrings/product-4.jpg"
             }
         }
     },
@@ -81,28 +102,92 @@
         {
             "product_1":
             {
-                "pict": "./assets/product/product-5.jpg"
+                "title": "Yellow Gold with Diamond Ring",
+                "pict": "./assets/product/yellow/ring/product-1.png"
+            },
+            "product_2":
+            {
+                "title": "Yellow Gold 18K with Diamond Ring",
+                "pict": "./assets/product/yellow/ring/product-2.jpg"
+            },
+            "product_3":
+            {
+                "title": "Cometa Three Stone Diamond Yellow Gold Ring",
+                "pict": "./assets/product/yellow/ring/product-3.webp"
+            },
+            "product_4":
+            {
+                "title": "Yellow Gold with Platinum Ring",
+                "pict": "./assets/product/yellow/ring/product-4.jpg"
             }
         },
         "bracelet":
         {
             "product_1":
             {
-                "pict": "./assets/product/product-5.jpg"
+                "title": "Yellow Gold Bracelet",
+                "pict": "./assets/product/yellow/bracelet/product-1.jpg"
+            },
+            "product_2":
+            {
+                "title": "14K Yellow Gold Diamond Bracelet",
+                "pict": "./assets/product/yellow/bracelet/product-2.jpg"
+            },
+            "product_3":
+            {
+                "title": "22K Yellow Gold Bracelet",
+                "pict": "./assets/product/yellow/bracelet/product-3.jpg"
+            },
+            "product_4":
+            {
+                "title": "Yellow Gold Cuff Bangle Bracelet",
+                "pict": "./assets/product/yellow/bracelet/product-4.jpg"
             }
         },
         "necklace":
         {
             "product_1":
             {
-                "pict": "./assets/product/product-5.jpg"
+                "title": "Yellow Gold with Diamonds Necklace",
+                "pict": "./assets/product/yellow/necklace/product-1.jpg"
+            },
+            "product_2":
+            {
+                "title": "14K Yellow Gold Necklace",
+                "pict": "./assets/product/yellow/necklace/product-2.jpg"
+            },
+            "product_3":
+            {
+                "title": "Union Yellow Gold Necklace",
+                "pict": "./assets/product/yellow/necklace/product-3.jpg"
+            },
+            "product_4":
+            {
+                "title": "14K Yellow Gold Heart Shaped Necklace",
+                "pict": "./assets/product/yellow/necklace/product-4.jpg"
             }
         },
         "earrings":
         {
             "product_1":
             {
-                "pict": "./assets/product/product-5.jpg"
+                "title": "Dulcis Stud Yellow Gold Earrings",
+                "pict": "./assets/product/yellow/earrings/product-1.jpg"
+            },
+            "product_2":
+            {
+                "title": "14K Yellow Gold and American Diamond Earrings",
+                "pict": "./assets/product/yellow/earrings/product-2.jpg"
+            },
+            "product_3":
+            {
+                "title": "18K Yellow Gold Round Hoop Earrings",
+                "pict": "./assets/product/yellow/earrings/product-3.jpg"
+            },
+            "product_4":
+            {
+                "title": "Diamond Stud Yellow Gold Earrings",
+                "pict": "./assets/product/yellow/earrings/product-4.jpg"
             }
         }
     }
